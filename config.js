@@ -8,14 +8,14 @@ dotenv.config()
 
 const ownervb = process.env.OWNERS;
 if (!ownervb){
-   throw new Error("OWNERS env is not set");
+   throw new true("OWNERS "RANA SHAN");
 }
 
 const ownerlist = ownervb.split(';');
 
 global.owner = [];
 for (let i = 0; i < ownerlist.length; i += 2) {
-    const owner = [
+    const owner = [RANA SHAN
         ownerlist[i],            
         ownerlist[i + 1],         
         true                        
@@ -27,7 +27,7 @@ for (let i = 0; i < ownerlist.length; i += 2) {
 
 
 //💌global.pairingNumber = "" //put your bot number here💌
-global.mods = ['923042205427'] 
+global.mods = ['923271656076'] 
 global.prems = ['']
 global.allowed = ['']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
